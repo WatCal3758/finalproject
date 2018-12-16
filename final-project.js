@@ -16,13 +16,19 @@ window.onclick = function(event) {
   }
 
 document.ready(function() {
-    const productPage = $('.productpage');
-    if(productpage){
-        productPage();
+    const productPage = $('.productpage-tech');
+    if(productPage){
+        productpageTech();
     }
 });
 
-function productPage()
+function productpageTech()
 {
-
+    var jsontextData = JSON.parse(technology);
+    for(var i = 0; i < jsontextData.length; i++)
+    {
+      console.log(jsonData[i].name);
+      console.log(jsonData[i].src);
+      console.log(jsonData[i].price);
+    }
 }

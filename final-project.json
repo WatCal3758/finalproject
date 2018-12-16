@@ -1,50 +1,60 @@
-[ 
+{
+"technology" : [
     {
         "title": "Amazon Echo 3rd Generation",
         "description": "",
+        "price": "$29.99",
         "src": "echo.jpg",
         "id": "1"
     },
     {
-        "title": "Amazon Echo 3rd Generation",
+        "title": "Skullycandy Headphones",
         "description": "",
-        "src": "echo.jpg",
+        "price": "$58.97",
+        "src": "headphones.jpeg",
         "id": "2"
     },
     {
-        "title": "Amazon Echo 3rd Generation",
+        "title": "iPhone X",
         "description": "",
-        "src": "echo.jpg",
+        "price": "$899.99",
+        "src": "iphone.jpeg",
         "id": "3"
     },
     {
-        "title": "Amazon Echo 3rd Generation",
+        "title": "NIBOSI Luxury Fashion Watch",
         "description": "",
-        "src": "echo.jpg",
+        "price": "$24.99",
+        "src": "watch.jpg",
         "id": "4"
     },
     {
-        "title": "Amazon Echo 3rd Generation",
+        "title": "Fire 7 Tablet",
         "description": "",
-        "src": "echo.jpg",
+        "price": "$49.99",
+        "src": "fire.jpg",
         "id": "5"
     },
     {
-        "title": "Amazon Echo 3rd Generation",
+        "title": "Wirless iPhone Charger",
         "description": "",
-        "src": "echo.jpg",
+        "price": "$30.67",
+        "src": "charger.jpg",
         "id": "6"
     },
     {
-        "title": "Amazon Echo 3rd Generation",
+        "title": "Frigidaire Microwave",
         "description": "",
-        "src": "echo.jpg",
+        "price": "$82.99",
+        "src": "microwave.jpeg",
         "id": "7"
     },
     {
-        "title": "Amazon Echo 3rd Generation",
+        "title": "Wireless Apple Earbuds",
         "description": "",
-        "src": "echo.jpg",
+        "price": "$30.67",
+        "src": "earbuds.jpg",
         "id": "8"
     }
 ]
+}
