@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Bungee');
+        body{
+            font-family: 'Bungee', cursive;
+        }
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+        body{
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+        body{
+            font-family: 'Lato', sans-serif;
+        }
+
+    </style>
+    <link href="final-project.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="final-project.js"></script>
+</head>
+<section class = "top">
+    <h1> IKEA </h1>
+    <img src="logo.png" class="logo" alt="Logo"/>
+    <div class = "tabs">
+            <a href = "final-project.html" class = "tablinks" id = "button1">Home</a>
+            <div class = "dropdown">
+                <a onclick = "myFunction()" class = "tablinks" id = "button2">Products</a> 
+                <div id="myDropdown" class="dropdown-content">
+                    <a href = "products-food.html">Food/Beverages</a>
+                    <a href = "products-tech.html">Technology</a>
+                    <a href = "products-decor.html">Decoration</a>
+                </div>
+            </div>
+    </div>
+</section>
+<section class = "middle">
+    <img src="room.jpeg" class="room" alt="front"/>
+    <h2><i>A US twist off of the Swedish masterpiece...</i></h2>
+    <section class = "featured">
+            <img src="echo.jpg" class="featureditem" alt="echo"/>
+            <h3>Featured Product:</h3>
+            <h4>Amazon Echo (2nd Gen)</h4>
+            <p>Echo connects to Alexa to play music, read the news, set alarms and timers, answer questions, 
+                control compatible smart home devices, and more. Powerful speakers with Dolby technology play 360° audio with clear vocals and dynamic bass response. You can also use your voice to adjust equalizer settings or pair with 
+                another Echo (2nd Gen) for stereo sound.</p>
+            <h5>"The all-new Echo is the smart-speaker sweet spot." - The Wall Street Journal</h5>
+            <button class= "productinfo" id = "echoLM">LEARN MORE</button>
+    </section>
+    <section class = "homeproducts">
+        <h5>Products</h5>
+        <img src="microwave.jpg" class="homeitem1" alt="microwave"/>
+        <h6>Frigidaire 30" Microwave</h6>
+        <h6>$243.00</h6>
+        <img src="iphone.jpg" class="homeitem2" alt="iphone"/>
+        <h6>(3 Pack) Great Value Sweetened Dried Mango</h6>
+        <h6>$11.98</h6>
+        <img src="mango.jpg" class="homeitem3" alt="mango"/>
+        <h6>iPhone X</h6>
+        <h6>$900</h6>
+        <a href="tech.html" class="smbutton">View All Products <span>&#8594</span></a>
+    </section>
+    <section class = "about">
+            <h5>About</h5>
+            <p>Here at IKEA-US, we attempt to create a unique experience for all of our customers.
+               Please enjoy looking through our page at our wide selection of goods. Hope you enjoy!
+            </p>
+            <h5>Contact Us</h5>
+            <h6>(843)123-4567</h6>
+            <h6>123 Rainbow Road
+                Mount Pleasant, SC, 29466</h6>
+            <a href="" class="smbutton">Like us on Facebook</a>
+            <a href="" class="smbutton">Follow us on Twitter</a>
+        </section>
+</section>
+
+
+
+
