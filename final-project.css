@@ -178,4 +178,28 @@ h6{
 
 /*PRODUCT PAGE*/
 
+.head-img{
+    background-image: linear-gradient(to right, red, yellow);
+    font-size: 20px;
+    color: black;
+    float: left;
+    margin-left: 0%;
+    font-family: "Bungee", cursive;
+    font-style: bold;
+}
+
+.product-holder{
+    background-color: black;
+}
+
+.img-tech{
+    margin-left: 25%;
+    border: white 15px;
+}
+
+.price{
+    color: white;
+    font-weight: bold;
+    margin-left: 50%;
+}
 
