@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function()
 const products = [
   {
       "title": "Amazon Echo 3rd Generation",
-      "description": "",
+      "description": "Echo Dot is our most popular voice-controlled speaker, now with improved sound and a new design",
       "price": "$29.99",
       "src": "echo.jpg",
       "id": "1",
@@ -28,7 +28,7 @@ const products = [
   },
   {
       "title": "Skullycandy Headphones",
-      "description": "",
+      "description": "15 hour rechargeable battery, soft synthetic leather ear cushions, bluetooth wirless with microphone",
       "price": "$58.97",
       "src": "headphones.jpeg",
       "id": "2",
@@ -36,7 +36,7 @@ const products = [
   },
   {
       "title": "iPhone X",
-      "description": "",
+      "description": "The latest sensation to the Apple industry",
       "price": "$899.99",
       "src": "iphone.jpeg",
       "id": "3",
@@ -44,7 +44,7 @@ const products = [
   },
   {
       "title": "NIBOSI Luxury Fashion Watch",
-      "description": "",
+      "description": "waterproof, military quartz, rose gold hands",
       "price": "$24.99",
       "src": "watch.jpg",
       "id": "4",
@@ -52,7 +52,7 @@ const products = [
   },
   {
       "title": "Fire 7 Tablet",
-      "description": "",
+      "description": "thinner, lighter, longer batery life, high contrast and sharper text",
       "price": "$49.99",
       "src": "fire.jpg",
       "id": "5",
@@ -60,7 +60,7 @@ const products = [
   },
   {
       "title": "Wirless iPhone Charger",
-      "description": "",
+      "description": "Qi-certified, compatable with all iPhone types",
       "price": "$30.67",
       "src": "charger.jpg",
       "id": "6",
@@ -68,7 +68,7 @@ const products = [
   },
   {
       "title": "Frigidaire Microwave",
-      "description": "",
+      "description": "black stainless, sound on/sound off ECO mode, LED lighting",
       "price": "$82.99",
       "src": "microwave.jpeg",
       "id": "7",
@@ -76,15 +76,15 @@ const products = [
   },
   {
       "title": "Wireless Apple Earbuds",
-      "description": "",
+      "description": "in-Ear stereo sound, noise cancelling, bluetooth wireless",
       "price": "$30.67",
       "src": "earbuds.jpg",
       "id": "8",
       "cat": "technology"
   },
   {
-    "title": "Ghirardelli Hot Cocoa 15-Count",
-    "description": "",
+    "title": "Ghirardelli Hot Cocoa",
+    "description": "15-count, rich dark chocalate flavor",
     "price": "$10.23",
     "src": "cocoa.jpg",
     "id": "1",
@@ -92,15 +92,15 @@ const products = [
   },
   {
     "title": "AmazonFresh Colombia Ground Coffee",
-    "description": "",
+    "description": "dark flavor, perfect way to start your morning",
     "price": "$15.49",
     "src": "coffee.jpg",
     "id": "2",
     "cat": "food"
   },
   {
-    "title": "12-Pack Assorted Gatorade",
-    "description": "",
+    "title": "Assorted Gatorade Pack",
+    "description": "12-count, various flavors avaliable, perfect source of electrolytes",
     "price": "$9.16",
     "src": "gatorade.jpg",
     "id": "3",
@@ -108,7 +108,7 @@ const products = [
   },
   {
     "title": "GreatValue Sun-Dried Mango",
-    "description": "",
+    "description": "a perfect balance of sweet and tang",
     "price": "$29.99",
     "src": "mango.jpeg",
     "id": "4",
@@ -116,7 +116,7 @@ const products = [
   },
   {
     "title": "Muscle Milk Protein Powder",
-    "description": "",
+    "description": "add to shakes to give yourself that extra boost when you need it",
     "price": "$42.12",
     "src": "protein.jpg",
     "id": "5",
@@ -124,15 +124,15 @@ const products = [
   },
   {
     "title": "Lakanto Maple Flavored Syrup",
-    "description": "",
+    "description": "perfect addition to early morning pancakes",
     "price": "$9.49",
     "src": "syrup.jpg",
     "id": "6",
     "cat": "food"
   },
   {
-    "title": "Pure Leaf Sweetened Tea 8-Count",
-    "description": "",
+    "title": "Pure Leaf Sweetened Tea",
+    "description": "8 count, all-natural rich tea",
     "price": "$10.98",
     "src": "tea.jpg",
     "id": "7",
@@ -140,7 +140,7 @@ const products = [
   },
   {
     "title": "Happy Belly Nuts, Chocalate & Dried Fruit Trail Mix",
-    "description": "",
+    "description": "great combination of sweet and salty",
     "price": "$16.99",
     "src": "trailmix.jpg",
     "id": "8",
@@ -148,7 +148,7 @@ const products = [
   },
   {
     "title": "Furinno Easy Assembly Computer Desk",
-    "description": "",
+    "description": "light cherry, sturdy, quick to set up",
     "price": "$39.81",
     "src": "desk.jpg",
     "id": "1",
@@ -156,7 +156,7 @@ const products = [
   },
   {
     "title": "HomeHero Kitchen Utensil Set",
-    "description": "",
+    "description": "23 nylon cooking utensils with spatula",
     "price": "$19.99",
     "src": "kitchenset.jpg",
     "id": "2",
@@ -164,7 +164,7 @@ const products = [
   },
   {
     "title": "Cangshan Knife Set",
-    "description": "",
+    "description": "Swedish forged steel",
     "price": "$119.97",
     "src": "knife.jpg",
     "id": "3",
@@ -172,7 +172,7 @@ const products = [
   },
   {
     "title": "AUKEY Table Lamp",
-    "description": "",
+    "description": "touch senors + dimmable warm white light & color changing RGB",
     "price": "$26.99",
     "src": "lamp.jpg",
     "id": "4",
@@ -180,7 +180,7 @@ const products = [
   },
   {
     "title": "Lifeholder Light Fixture",
-    "description": "",
+    "description": "mini chandelier, crystal lighting, 2 lights, flush mount ceiling light",
     "price": "$32.99",
     "src": "lightfixture.jpg",
     "id": "5",
@@ -188,7 +188,7 @@ const products = [
   },
   {
     "title": "Zinus Memory Foam Mattress",
-    "description": "",
+    "description": "12 inch green tea queen mattress",
     "price": "$251.85",
     "src": "mattress.jpg",
     "id": "6",
@@ -196,7 +196,7 @@ const products = [
   },
   {
     "title": "Maples Rugs Home Rug",
-    "description": "",
+    "description": "5 x 7, non slip large rug, grey",
     "price": "$82.10",
     "src": "rug.jpg",
     "id": "7",
@@ -204,7 +204,7 @@ const products = [
   },
   {
     "title": "PENGASE Tablecloth",
-    "description": "",
+    "description": "60 x 120 inch, perfect item to furthur stlye your home dinners",
     "price": "$25.99",
     "src": "tablecloth.jpg",
     "id": "8",
@@ -263,19 +263,25 @@ function productpageTech() {
   });
 }
 
-const productPage = document.querySelector('.productpage-tech');
-if (productPage) {
+if(document.getElementById('Tech').clicked == true)
+{
+  const productPage = document.querySelector('.productspage');
+    if (productPage) {
       productpageTech();
+    }
 }
-
-const productPage = document.querySelector('.productpage-food');
-if (productPage) {
+if(document.getElementById('Food').clicked == true)
+{
+  const productPage = document.querySelector('.productspage');
+    if (productPage) {
       productpageFood();
+    }
 }
-
-const productPage = document.querySelector('.productpage-decor');
-if (productPage) {
+if(document.getElementById('Decor').clicked == true)
+{
+  const productPage = document.querySelector('.productspage');
+    if (productPage) {
       productpageDecor();
+  }
 }
-
 });
