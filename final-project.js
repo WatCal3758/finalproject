@@ -232,7 +232,7 @@ function productpageFood() {
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
           </article>`;
-      const hook = document.querySelector('.product-holder');
+      const hook = document.querySelector('.product-holderFOOD');
       hook.insertAdjacentHTML("beforeend", product);
     });
   }
@@ -245,7 +245,7 @@ function productpageFood() {
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
           </article>`;
-      const hook = document.querySelector('.product-holder');
+      const hook = document.querySelector('.product-holderDECOR');
       hook.insertAdjacentHTML("beforeend", product);
     });
   }
@@ -258,30 +258,20 @@ function productpageTech() {
           <img src='${el.src}'>
           <p class="price">${el.price}</p>
         </article>`;
-    const hook = document.querySelector('.product-holder');
+    const hook = document.querySelector('.product-holderTECH');
     hook.insertAdjacentHTML("beforeend", product);
   });
 }
 
-if(document.getElementById('Tech').clicked == true)
-{
-  const productPage = document.querySelector('.productspage');
-    if (productPage) {
-      productpageTech();
-    }
-}
-if(document.getElementById('Food').clicked == true)
-{
-  const productPage = document.querySelector('.productspage');
-    if (productPage) {
-      productpageFood();
-    }
-}
-if(document.getElementById('Decor').clicked == true)
-{
-  const productPage = document.querySelector('.productspage');
-    if (productPage) {
-      productpageDecor();
-  }
-}
+const holderTECH = $(".product-holderTECH"),
+      holderDECOR = $(".product-holderDECOR"),
+      holderFOOD = $(".product-holderFOOD");  
+
+$('#food').click(function foodVisibility(){
+  productpageFood();
+  holderFOOD.classList.toggle("show");
+  holderDECOR.classList.remove("show");
+  holderTECH.classList.remove("show");
+});
+
 });
