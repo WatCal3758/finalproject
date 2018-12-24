@@ -226,52 +226,44 @@ const decor = products.filter(product => {
 
 function productpageFood() {
     food.map( function(el, i) {
-      let product = 
+      let foodProduct = 
           `<article class="product">
             <p class="head-img">${el.title}</p>
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
           </article>`;
-      const hook = document.querySelector('.product-holderFOOD');
-      hook.insertAdjacentHTML("beforeend", product);
+      const hook = document.querySelector('.product-holder');
+      hook.insertAdjacentHTML("beforeend", foodProduct);
     });
   }
 
   function productpageDecor() {
     decor.map( function(el, i) {
-      let product = 
+      let decorProduct = 
           `<article class="product">
             <p class="head-img">${el.title}</p>
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
           </article>`;
-      const hook = document.querySelector('.product-holderDECOR');
-      hook.insertAdjacentHTML("beforeend", product);
+      const hook = document.querySelector('.product-holder');
+      hook.insertAdjacentHTML("beforeend", decorProduct);
     });
   }
 
 function productpageTech() {
   tech.map( function(el, i) {
-    let product = 
+    let techProduct = 
         `<article class="product">
           <p class="head-img">${el.title}</p>
           <img src='${el.src}'>
           <p class="price">${el.price}</p>
         </article>`;
-    const hook = document.querySelector('.product-holderTECH');
-    hook.insertAdjacentHTML("beforeend", product);
+    const hook = document.querySelector('.product-holder');
+    hook.insertAdjacentHTML("beforeend", techProduct);
   });
 }
 
-const holderTECH = $(".product-holderTECH"),
-      holderDECOR = $(".product-holderDECOR"),
-      holderFOOD = $(".product-holderFOOD");  
-
-$('#food').click(function foodVisibility(){
-  productpageFood();
-  holderFOOD.classList.toggle("show");
-  holderDECOR.classList.remove("show");
-  holderTECH.classList.remove("show");
-});
-
+$("a.decor").onclick(productpageDecor);
+$("a.food").onclick(productpageFood);
+$("a.tech").onclick(productpageTech);
 });
