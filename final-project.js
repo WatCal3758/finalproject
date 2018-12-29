@@ -263,5 +263,13 @@ function productpageTech() {
   });
 }
 
+const toggle = $('.toggle');
+toggle.on('click', function(event) {
+  event.preventDefault();
+  const prod = $(this).data('prod');
+  $('.prod').removeClass('active');
+  $(`[data-section=${prod}]`).addClass('active');
+})
+
 
 });

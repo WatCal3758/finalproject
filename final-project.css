@@ -397,3 +397,10 @@ h6{
     margin-left: 50%;
 }
 
+.prod{
+    display: none;
+}
+
+.active{
+    display: block;
+}
