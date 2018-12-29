@@ -226,44 +226,42 @@ const decor = products.filter(product => {
 
 function productpageFood() {
     food.map( function(el, i) {
-      let foodProduct = 
+      let product = 
           `<article class="product">
             <p class="head-img">${el.title}</p>
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
           </article>`;
       const hook = document.querySelector('.product-holder');
-      hook.insertAdjacentHTML("beforeend", foodProduct);
+      hook.insertAdjacentHTML("beforeend", product);
     });
   }
 
   function productpageDecor() {
     decor.map( function(el, i) {
-      let decorProduct = 
+      let product = 
           `<article class="product">
             <p class="head-img">${el.title}</p>
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
           </article>`;
       const hook = document.querySelector('.product-holder');
-      hook.insertAdjacentHTML("beforeend", decorProduct);
+      hook.insertAdjacentHTML("beforeend", product);
     });
   }
 
 function productpageTech() {
   tech.map( function(el, i) {
-    let techProduct = 
+    let product = 
         `<article class="product">
           <p class="head-img">${el.title}</p>
           <img src='${el.src}'>
           <p class="price">${el.price}</p>
         </article>`;
     const hook = document.querySelector('.product-holder');
-    hook.insertAdjacentHTML("beforeend", techProduct);
+    hook.insertAdjacentHTML("beforeend", product);
   });
 }
 
-$("a.decor").onclick(productpageDecor);
-$("a.food").onclick(productpageFood);
-$("a.tech").onclick(productpageTech);
+
 });
