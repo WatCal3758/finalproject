@@ -232,7 +232,7 @@ function productpageFood() {
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
           </article>`;
-      const hook = document.querySelector('.product-holder');
+      const hook = document.querySelector('.prod1');
       hook.insertAdjacentHTML("beforeend", product);
     });
   }
@@ -245,7 +245,7 @@ function productpageFood() {
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
           </article>`;
-      const hook = document.querySelector('.product-holder');
+      const hook = document.querySelector('.prod2');
       hook.insertAdjacentHTML("beforeend", product);
     });
   }
@@ -258,7 +258,7 @@ function productpageTech() {
           <img src='${el.src}'>
           <p class="price">${el.price}</p>
         </article>`;
-    const hook = document.querySelector('.product-holder');
+    const hook = document.querySelector('.prod3');
     hook.insertAdjacentHTML("beforeend", product);
   });
 }
@@ -271,5 +271,8 @@ toggle.on('click', function(event) {
   $(`[data-section=${prod}]`).addClass('active');
 })
 
+productpageDecor();
+productpageFood();
+productpageTech();
 
 });
