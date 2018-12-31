@@ -24,7 +24,8 @@ const products = [
       "price": "$29.99",
       "src": "echo.jpg",
       "id": "1",
-      "cat": "technology"
+      "cat": "technology",
+      "url": "/singleproductpage.html/"
   },
   {
       "title": "Skullycandy Headphones",
@@ -32,7 +33,8 @@ const products = [
       "price": "$58.97",
       "src": "headphones.jpeg",
       "id": "2",
-      "cat": "technology"
+      "cat": "technology",
+      "url": "/singleproductpage.html/"
   },
   {
       "title": "iPhone X",
@@ -40,7 +42,8 @@ const products = [
       "price": "$899.99",
       "src": "iphone.jpeg",
       "id": "3",
-      "cat": "technology"
+      "cat": "technology",
+      "url": "/singleproductpage.html/"
   },
   {
       "title": "NIBOSI Luxury Fashion Watch",
@@ -48,7 +51,8 @@ const products = [
       "price": "$24.99",
       "src": "watch.jpg",
       "id": "4",
-      "cat": "technology"
+      "cat": "technology",
+      "url": "/singleproductpage.html/"
   },
   {
       "title": "Fire 7 Tablet",
@@ -56,7 +60,8 @@ const products = [
       "price": "$49.99",
       "src": "fire.jpg",
       "id": "5",
-      "cat": "technology"
+      "cat": "technology",
+      "url": "/singleproductpage.html/"
   },
   {
       "title": "Wirless iPhone Charger",
@@ -64,7 +69,8 @@ const products = [
       "price": "$30.67",
       "src": "charger.jpg",
       "id": "6",
-      "cat": "technology"
+      "cat": "technology",
+      "url": "/singleproductpage.html/"
   },
   {
       "title": "Frigidaire Microwave",
@@ -72,7 +78,8 @@ const products = [
       "price": "$82.99",
       "src": "microwave.jpeg",
       "id": "7",
-      "cat": "technology"
+      "cat": "technology",
+      "url": "/singleproductpage.html/"
   },
   {
       "title": "Wireless Apple Earbuds",
@@ -80,7 +87,8 @@ const products = [
       "price": "$30.67",
       "src": "earbuds.jpg",
       "id": "8",
-      "cat": "technology"
+      "cat": "technology",
+      "url": "/singleproductpage.html/"
   },
   {
     "title": "Ghirardelli Hot Cocoa",
@@ -88,7 +96,8 @@ const products = [
     "price": "$10.23",
     "src": "cocoa.jpg",
     "id": "1",
-    "cat": "food"
+    "cat": "food",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "AmazonFresh Colombia Ground Coffee",
@@ -96,7 +105,8 @@ const products = [
     "price": "$15.49",
     "src": "coffee.jpg",
     "id": "2",
-    "cat": "food"
+    "cat": "food",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Assorted Gatorade Pack",
@@ -104,7 +114,8 @@ const products = [
     "price": "$9.16",
     "src": "gatorade.jpg",
     "id": "3",
-    "cat": "food"
+    "cat": "food",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "GreatValue Sun-Dried Mango",
@@ -112,7 +123,8 @@ const products = [
     "price": "$29.99",
     "src": "mango.jpeg",
     "id": "4",
-    "cat": "food"
+    "cat": "food",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Muscle Milk Protein Powder",
@@ -120,7 +132,8 @@ const products = [
     "price": "$42.12",
     "src": "protein.jpg",
     "id": "5",
-    "cat": "food"
+    "cat": "food",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Lakanto Maple Flavored Syrup",
@@ -128,7 +141,8 @@ const products = [
     "price": "$9.49",
     "src": "syrup.jpg",
     "id": "6",
-    "cat": "food"
+    "cat": "food",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Pure Leaf Sweetened Tea",
@@ -136,7 +150,8 @@ const products = [
     "price": "$10.98",
     "src": "tea.jpg",
     "id": "7",
-    "cat": "food"
+    "cat": "food",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Happy Belly Nuts, Chocalate & Dried Fruit Trail Mix",
@@ -144,7 +159,8 @@ const products = [
     "price": "$16.99",
     "src": "trailmix.jpg",
     "id": "8",
-    "cat": "food"
+    "cat": "food",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Furinno Easy Assembly Computer Desk",
@@ -152,7 +168,8 @@ const products = [
     "price": "$39.81",
     "src": "desk.jpg",
     "id": "1",
-    "cat": "decoration"
+    "cat": "decoration",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "HomeHero Kitchen Utensil Set",
@@ -160,7 +177,8 @@ const products = [
     "price": "$19.99",
     "src": "kitchenset.jpg",
     "id": "2",
-    "cat": "decoration"
+    "cat": "decoration",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Cangshan Knife Set",
@@ -168,7 +186,8 @@ const products = [
     "price": "$119.97",
     "src": "knife.jpg",
     "id": "3",
-    "cat": "decoration"
+    "cat": "decoration",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "AUKEY Table Lamp",
@@ -176,7 +195,8 @@ const products = [
     "price": "$26.99",
     "src": "lamp.jpg",
     "id": "4",
-    "cat": "decoration"
+    "cat": "decoration",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Lifeholder Light Fixture",
@@ -184,7 +204,8 @@ const products = [
     "price": "$32.99",
     "src": "lightfixture.jpg",
     "id": "5",
-    "cat": "decoration"
+    "cat": "decoration",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Zinus Memory Foam Mattress",
@@ -192,7 +213,8 @@ const products = [
     "price": "$251.85",
     "src": "mattress.jpg",
     "id": "6",
-    "cat": "decoration"
+    "cat": "decoration",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "Maples Rugs Home Rug",
@@ -200,7 +222,8 @@ const products = [
     "price": "$82.10",
     "src": "rug.jpg",
     "id": "7",
-    "cat": "decoration"
+    "cat": "decoration",
+    "url": "/singleproductpage.html/"
   },
   {
     "title": "PENGASE Tablecloth",
@@ -208,7 +231,8 @@ const products = [
     "price": "$25.99",
     "src": "tablecloth.jpg",
     "id": "8",
-    "cat": "decoration"
+    "cat": "decoration",
+    "url": "/singleproductpage.html/"
   }
 ];
 
@@ -231,8 +255,9 @@ function productpageFood() {
             <p class="head-img">${el.title}</p>
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
+            <a href = "${el.url}">View Product</a>
           </article>`;
-      const hook = document.querySelector('.prod1');
+      const hook = document.querySelector('.cat1');
       hook.insertAdjacentHTML("beforeend", product);
     });
   }
@@ -244,8 +269,9 @@ function productpageFood() {
             <p class="head-img">${el.title}</p>
             <img src='${el.src}'>
             <p class="price">${el.price}</p>
+            <a href = "${el.url}">View Product</a>
           </article>`;
-      const hook = document.querySelector('.prod2');
+      const hook = document.querySelector('.cat2');
       hook.insertAdjacentHTML("beforeend", product);
     });
   }
@@ -257,8 +283,9 @@ function productpageTech() {
           <p class="head-img">${el.title}</p>
           <img src='${el.src}'>
           <p class="price">${el.price}</p>
+          <a href = "${el.url}">View Product</a>
         </article>`;
-    const hook = document.querySelector('.prod3');
+    const hook = document.querySelector('.cat3');
     hook.insertAdjacentHTML("beforeend", product);
   });
 }
@@ -266,10 +293,10 @@ function productpageTech() {
 const toggle = $('.toggle');
 toggle.on('click', function(event) {
   event.preventDefault();
-  const prod = $(this).data('prod');
-  $('.prod').removeClass('active');
-  $(`[data-section=${prod}]`).addClass('active');
-})
+  const cat = $(this).data('cat');
+  $('.cat').removeClass('active');
+  $(`[data-section=${cat}]`).addClass('active');
+});
 
 productpageDecor();
 productpageFood();
