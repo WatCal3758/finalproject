@@ -22,7 +22,7 @@ const products = [
       "title": "Amazon Echo 3rd Generation",
       "description": "Echo Dot is our most popular voice-controlled speaker, now with improved sound and a new design",
       "price": "$29.99",
-      "src": "echo.jpg",
+      "src": "echo.jpeg",
       "id": "1",
       "cat": "technology",
       "url": "./singleproductpage.html"
@@ -253,7 +253,7 @@ function productpageFood() {
       let product = 
           `<article class="product">
             <p class="head-img">${el.title}</p>
-            <img src='${el.src}'>
+            <img class="singularimages" src='${el.src}'>
             <p class="price">${el.price}</p>
             <a href = "${el.url}">View Product</a>
           </article>`;
@@ -267,7 +267,7 @@ function productpageFood() {
       let product = 
           `<article class="product">
             <p class="head-img">${el.title}</p>
-            <img src='${el.src}'>
+            <img class="singularimages" src='${el.src}'>
             <p class="price">${el.price}</p>
             <a href = "${el.url}">View Product</a>
           </article>`;
@@ -281,7 +281,7 @@ function productpageTech() {
     let product = 
         `<article class="product">
           <p class="head-img">${el.title}</p>
-          <img src='${el.src}'>
+          <img class="singularimages" src='${el.src}'>
           <p class="price">${el.price}</p>
           <a href = "${el.url}">View Product</a>
         </article>`;
@@ -292,14 +292,11 @@ function productpageTech() {
 
 
 const toggle = $('.toggle');
-const home = $('.home');
 toggle.on('click', function(event) {
-if(!home){
   event.preventDefault();
   const cat = $(this).data('cat');
   $('.cat').removeClass('active');
   $(`[data-section=${cat}]`).addClass('active');
-}
 });
 
 productpageDecor();
