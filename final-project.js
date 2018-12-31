@@ -25,7 +25,7 @@ const products = [
       "src": "echo.jpg",
       "id": "1",
       "cat": "technology",
-      "url": "/singleproductpage.html/"
+      "url": "./singleproductpage.html"
   },
   {
       "title": "Skullycandy Headphones",
@@ -34,7 +34,7 @@ const products = [
       "src": "headphones.jpeg",
       "id": "2",
       "cat": "technology",
-      "url": "/singleproductpage.html/"
+      "url": "./singleproductpage.html"
   },
   {
       "title": "iPhone X",
@@ -43,7 +43,7 @@ const products = [
       "src": "iphone.jpeg",
       "id": "3",
       "cat": "technology",
-      "url": "/singleproductpage.html/"
+      "url": "./singleproductpage.html"
   },
   {
       "title": "NIBOSI Luxury Fashion Watch",
@@ -52,7 +52,7 @@ const products = [
       "src": "watch.jpg",
       "id": "4",
       "cat": "technology",
-      "url": "/singleproductpage.html/"
+      "url": "./singleproductpage.html"
   },
   {
       "title": "Fire 7 Tablet",
@@ -61,7 +61,7 @@ const products = [
       "src": "fire.jpg",
       "id": "5",
       "cat": "technology",
-      "url": "/singleproductpage.html/"
+      "url": "./singleproductpage.html"
   },
   {
       "title": "Wirless iPhone Charger",
@@ -70,7 +70,7 @@ const products = [
       "src": "charger.jpg",
       "id": "6",
       "cat": "technology",
-      "url": "/singleproductpage.html/"
+      "url": "./singleproductpage.html"
   },
   {
       "title": "Frigidaire Microwave",
@@ -79,7 +79,7 @@ const products = [
       "src": "microwave.jpeg",
       "id": "7",
       "cat": "technology",
-      "url": "/singleproductpage.html/"
+      "url": "./singleproductpage.html"
   },
   {
       "title": "Wireless Apple Earbuds",
@@ -88,7 +88,7 @@ const products = [
       "src": "earbuds.jpg",
       "id": "8",
       "cat": "technology",
-      "url": "/singleproductpage.html/"
+      "url": "./singleproductpage.html"
   },
   {
     "title": "Ghirardelli Hot Cocoa",
@@ -97,7 +97,7 @@ const products = [
     "src": "cocoa.jpg",
     "id": "1",
     "cat": "food",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "AmazonFresh Colombia Ground Coffee",
@@ -106,7 +106,7 @@ const products = [
     "src": "coffee.jpg",
     "id": "2",
     "cat": "food",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Assorted Gatorade Pack",
@@ -115,7 +115,7 @@ const products = [
     "src": "gatorade.jpg",
     "id": "3",
     "cat": "food",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "GreatValue Sun-Dried Mango",
@@ -124,7 +124,7 @@ const products = [
     "src": "mango.jpeg",
     "id": "4",
     "cat": "food",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Muscle Milk Protein Powder",
@@ -133,7 +133,7 @@ const products = [
     "src": "protein.jpg",
     "id": "5",
     "cat": "food",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Lakanto Maple Flavored Syrup",
@@ -142,7 +142,7 @@ const products = [
     "src": "syrup.jpg",
     "id": "6",
     "cat": "food",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Pure Leaf Sweetened Tea",
@@ -151,7 +151,7 @@ const products = [
     "src": "tea.jpg",
     "id": "7",
     "cat": "food",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Happy Belly Nuts, Chocalate & Dried Fruit Trail Mix",
@@ -160,7 +160,7 @@ const products = [
     "src": "trailmix.jpg",
     "id": "8",
     "cat": "food",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Furinno Easy Assembly Computer Desk",
@@ -169,7 +169,7 @@ const products = [
     "src": "desk.jpg",
     "id": "1",
     "cat": "decoration",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "HomeHero Kitchen Utensil Set",
@@ -178,7 +178,7 @@ const products = [
     "src": "kitchenset.jpg",
     "id": "2",
     "cat": "decoration",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Cangshan Knife Set",
@@ -187,7 +187,7 @@ const products = [
     "src": "knife.jpg",
     "id": "3",
     "cat": "decoration",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "AUKEY Table Lamp",
@@ -196,7 +196,7 @@ const products = [
     "src": "lamp.jpg",
     "id": "4",
     "cat": "decoration",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Lifeholder Light Fixture",
@@ -205,7 +205,7 @@ const products = [
     "src": "lightfixture.jpg",
     "id": "5",
     "cat": "decoration",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Zinus Memory Foam Mattress",
@@ -214,7 +214,7 @@ const products = [
     "src": "mattress.jpg",
     "id": "6",
     "cat": "decoration",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "Maples Rugs Home Rug",
@@ -223,7 +223,7 @@ const products = [
     "src": "rug.jpg",
     "id": "7",
     "cat": "decoration",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   },
   {
     "title": "PENGASE Tablecloth",
@@ -232,7 +232,7 @@ const products = [
     "src": "tablecloth.jpg",
     "id": "8",
     "cat": "decoration",
-    "url": "/singleproductpage.html/"
+    "url": "./singleproductpage.html"
   }
 ];
 
