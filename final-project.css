@@ -404,3 +404,21 @@ h6{
 .active{
     display: block;
 }
+
+.singleproductimg{
+    margin-left: 37%;
+    height: 200px;
+    width: 200px;
+}
+
+#product{
+    background-color: black;
+}
+
+#headdescript{
+    color: white;
+}
+
+#singleproduct{
+    color: white;
+}
