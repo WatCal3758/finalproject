@@ -271,7 +271,7 @@ function productpageFood() {
             <p class="price">${el.price}</p>
             <a href = "${el.url}">View Product</a>
           </article>`;
-      const hook = document.querySelector('.cat2');
+      const hook = document.querySelector('.cat3');
       hook.insertAdjacentHTML("beforeend", product);
     });
   }
@@ -285,17 +285,21 @@ function productpageTech() {
           <p class="price">${el.price}</p>
           <a href = "${el.url}">View Product</a>
         </article>`;
-    const hook = document.querySelector('.cat3');
+    const hook = document.querySelector('.cat2');
     hook.insertAdjacentHTML("beforeend", product);
   });
 }
 
+
 const toggle = $('.toggle');
+const home = $('.home');
 toggle.on('click', function(event) {
+if(!home){
   event.preventDefault();
   const cat = $(this).data('cat');
   $('.cat').removeClass('active');
   $(`[data-section=${cat}]`).addClass('active');
+}
 });
 
 productpageDecor();

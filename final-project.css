@@ -407,18 +407,26 @@ h6{
 
 .singleproductimg{
     margin-left: 37%;
-    height: 200px;
+    height: 300px;
     width: 200px;
 }
 
-#product{
+.product{
     background-color: black;
 }
 
-#headdescript{
+.headdescript{
     color: white;
 }
 
-#singleproduct{
+.singleproduct{
     color: white;
+}
+
+.cat{
+    background-color: black;
+}
+
+.singularimages{
+    margin-right: 0px;
 }
