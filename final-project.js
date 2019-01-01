@@ -292,11 +292,15 @@ function productpageTech() {
 
 
 const toggle = $('.toggle');
+home = $('.home');
 toggle.on('click', function(event) {
+if(home.length == 0)
+{
   event.preventDefault();
   const cat = $(this).data('cat');
   $('.cat').removeClass('active');
   $(`[data-section=${cat}]`).addClass('active');
+}
 });
 
 productpageDecor();
